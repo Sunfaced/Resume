@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Resume</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__inner">
+                <a class="logo" href="#">
+                    <img src="img/logo.jpg" alt="logo" class="logo__img">
+                </a>
+                <nav class="menu">
+                    <ul class="menu__list">
+                        <li>
+                            <a href="#part-one">СОЦИАЛЬНЫЕ СЕТИ</a>
+                        </li>
+                        <li>
+                            <a href="#part-two">МОИ ХОББИ</a>
+                        </li>
+                        <li>
+                            <a href="#part-three">ОПЫТ РАБОТЫ</a>
+                        </li>
+                        <li>
+                            <a href="#part-four">КОНТАКТЫ</a>
+                        </li>
+                        <li>
+                            <a class="phone" href="tel:79819819889">+7-981-981-98-89</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="social">
+        <div class="container">
+            <div class="social__box">
+                <div class="social__box-img">
+                    <img class="img" src="img/photo.jpg" alt="Портрет">
+                </div>
+                <div class="social__box-web">
+                    <h1>Кочерыжкин Александр</h1>
+                    <p>
+                        На данный момент я работаю <strong>ХИМИКОМ-ТЕХНОЛОГОМ ОБТК</strong> на биохимическом
+                        производстве. В обозримом
+                        будущем хочу стать <br>
+                        <strong><em>front-end разработчиком.</em></strong>
+                    </p>
+                    <h2 id="part-one" class="social__title">Список социальных сетей:</h2>
+                    <p class="social__text">
+
+                    </p>
+                    <ul class="social__list">
+                        <li><a href="#">INSTAGRAM</a></li>
+                        <li><a href="#">TELEGRAM</a></li>
+                        <li><a href="#">VKONTAKTE</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hobby">
+        <div class="container">
+            <div class="hobby__list">
+                <h2 id="part-two" class="hobby__title">Мои хобби:</h2>
+                <ol class="hobby__list">
+                    <li>Фитнесс</li>
+                    <li>Музыка</li>
+                    <li>Фэнтези</li>
+                    <li>Баскетбол</li>
+                </ol>
+            </div>
+        </div>
+    </section>
+    <section class="skill">
+        <div class="container">
+            <div class="skill__box">
+                <h2 id="part-three" class="skill__box-title">Опыт работы:</h2>
+                <table class="skill__box-list">
+                    <thead>
+                        <tr>
+                            <th>Название организации</th>
+                            <th>Должность</th>
+                            <th>Год</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ООО НПФ Абрис+</td>
+                            <td>Химик-технолог ОБТК</td>
+                            <td>2016-2022</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="skill__box-work">
+                    <img class="skill__box-chem" src="img/chem.jpg" alt="Работа">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="form">
+        <div class="container">
+            <div class="form__list">
+                <h2 id="part-four" class="form__list-title">Контакты:</h2>
+                <form action="#">
+                    <div>
+                        <label for="name">Введите имя</label>
+                        <input class="name" type="text" placeholder="Введите имя">
+                    </div>
+                    <div>
+                        <label for="email">Ваш email</label>
+                        <input class="email" type="email" placeholder="Введите email">
+                    </div>
+                    <div>
+                        <label for="textarea">Введите текст</label>
+                        <textarea name="" id="textarea" cols="30" rows="10" placeholder="Введите текст">Введите текст</textarea>
+                        <button class="btn"><i class="fa fa-home"></i> Отправить</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+</body>
+<footer class="footer">
+    <div class="container">
+        <div class="footer__inner">
+            <div class="footer__inner-link">
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+            <div class="footer__inner-list">
+                <a class="link-phone" href="№">
+                    <img class="footer__inner-cont" src="img/phone.svg" alt="Телефон для связи">
+                    <span>+7-981-981-98-89</span>
+                </a>
+                <a class="link-email" href="№">
+                    <img class="footer__inner-cont" src="img/mail.svg" alt="Email для связи">
+                    <span>592_2009@mail.ru</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+</html>
